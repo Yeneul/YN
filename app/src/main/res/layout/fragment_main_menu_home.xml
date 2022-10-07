@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    tools:context=".Fragment.MainMenuHomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#55BBD2" />
+
+    <!-- 닉네임 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/notosanskr_medium"
+        android:text="ooo님"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/standard1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/notosanskr_medium"
+        android:text="안녕하세요."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <!-- 포인트 -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/point"
+        android:src="@drawable/icon_main_point" />
+
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@font/notosanskr_medium"
+        android:text="1,000"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/standard1"
+        android:src="@drawable/icon_main_spot" />
+
+    <TextView
+        android:id="@+id/standard2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/standard1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/notosanskr_medium"
+        android:text="내 주변 분리수거함"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <RelativeLayout
+        android:id="@+id/standard3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/standard2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/gpsback1"></RelativeLayout>
+
+    <Button
+        android:id="@+id/sd_btn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/standard3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/main_button_style"
+        android:drawableLeft="@drawable/main_btn1"
+        android:elevation="20dp"
+        android:fontFamily="@font/notosanskr_medium"
+        android:paddingLeft="40dp"
+        android:text="분리배출 가이드"
+        android:textColor="#666666"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/bw_btn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/sd_btn"
+        android:drawableLeft="@drawable/main_btn2"
+        android:paddingLeft="40dp"
+        android:background="@drawable/main_button_style"
+        android:fontFamily="@font/notosanskr_medium"
+        android:text="대형폐기물 배출 가이드"
+        android:textColor="#666666"
+        android:textSize="16dp"
+        android:elevation="20dp"/>
+</RelativeLayout>

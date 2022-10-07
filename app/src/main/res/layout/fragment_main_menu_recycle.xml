@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F8F8"
+    tools:context=".Fragment.MainMenuRecycleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnHome"
+            android:background="@drawable/icon_back"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="분리수거 가이드"
+            android:layout_gravity="center"
+            android:fontFamily="@font/notosanskr_regular"/>
+    </RelativeLayout>
+-->
+    <Button
+        android:id="@+id/sd_btn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/page_icon1"
+        android:paddingLeft="20dp"
+        android:background="@drawable/sd_page_button_style"
+        android:fontFamily="@font/notosanskr_medium"
+        android:text="분리배출 왜 해야하나요?"
+        android:textColor="#666666"
+        android:textSize="18dp"
+        android:elevation="20dp"/>
+
+    <Button
+        android:id="@+id/sd_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/page2_icon2"
+        android:paddingLeft="20dp"
+        android:background="@drawable/sd_page_button_style"
+        android:fontFamily="@font/notosanskr_medium"
+        android:text="분리배출 이렇게 해주세요!"
+        android:textColor="#666666"
+        android:textSize="18dp"
+        android:elevation="20dp"/>
+
+    <Button
+        android:id="@+id/_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/page2_icon3"
+        android:paddingLeft="20dp"
+        android:background="@drawable/sd_page_button_style"
+        android:fontFamily="@font/notosanskr_medium"
+        android:text="분리배출 FAQ"
+        android:textColor="#666666"
+        android:textSize="18dp"
+        android:elevation="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/page2_background" />
+    </RelativeLayout>
+</LinearLayout>
